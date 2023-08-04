@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Nhập bán kính từ người dùng
+        var banKinh = parseFloat(prompt("Nhập bán kính của hình tròn:"));
+
+        // Tính toán đường kính, chu vi và diện tích
+        var duongKinh = 2 * banKinh;
+        var chuVi = 2 * Math.PI * banKinh;
+        var dienTich = Math.PI * Math.pow(banKinh, 2);
+
+        // In ra màn hình các giá trị đã tính được
+        alert("Đường kính của hình tròn là: " + duongKinh);
+        alert("Chu vi của hình tròn là: " + chuVi);
+        alert("Diện tích của hình tròn là: " + dienTich);
+    </script>
+</body>
+
+</html>
