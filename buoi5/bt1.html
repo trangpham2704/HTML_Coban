@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1" cellpadding="5" cellspacing="0" width="300" align="center">
+        <tr>
+            <td>chiều dài:<input type="text" name="cd" id="cd" value=""></td>
+        </tr>
+        <tr>
+            <td>Chiều rộng:<input type="text" name="cr" id="cr" value=""></td>
+        </tr>
+        <tr align="center">
+            <td><input type="button" name="hien" value=" dientich " onclick="dientich.value='dientich là:'+cd.value*cr.value;"></td>
+        </tr>
+        <tr align="center">
+            <td><input type="button" name="hien" value=" chuvi " onclick="chuvi.value='chuvi là:'+(cd.value+cr.value)*2;"></td>
+        </tr>
+        <tr>
+            <td>
+                <h1 <input type="text" name="dientich" id="dientich" value="" readonly></h1>
+            </td>
+            <td>
+                <h1 <input type="text" name="chuvi" id="chuvi" value="" readonly></h1>
+            </td>
+
+        </tr>
+    </table>
+    <script>
+    </script>
+</body>
+
+</html>
